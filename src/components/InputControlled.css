@@ -1,0 +1,14 @@
+input {
+    background-color: #dddcdc;
+    border: none;
+    height: 4vh;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 1%;
+    cursor: pointer;
+}
+
+input:focus {
+    box-shadow: 1px 1px 8px 3px #07daffe7;
+    transition: .2s ease-in-out;
+}

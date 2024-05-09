@@ -1,0 +1,13 @@
+.containerFrase {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #333;
+    border: 1px solid #111;
+    box-shadow: 7px 7px 10px #111111d2;
+}
+
+.titleFrase {
+    color: #fff;
+}

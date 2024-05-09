@@ -1,0 +1,11 @@
+.dark-theme {
+    background-color: #4f4f4f;
+    color: #fff;
+    transition: background-color .4s ease-in-out, color .4s ease-in-out;
+}
+
+.light-theme {
+    background-color: #fff;
+    color: #4f4f4f;
+    transition: background-color .4s ease-in-out, color .4s ease-in-out;
+}
