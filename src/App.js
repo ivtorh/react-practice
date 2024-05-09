@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className='App'> 
-      <h1>Testando CSS</h1>
+      <h1>Testando React.js</h1>
       <Frase />
       <br></br>
       <Pessoa 
