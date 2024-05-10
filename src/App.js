@@ -1,9 +1,11 @@
 import "./App.css";
+// import Evento from "./components/Evento";
+import Form from "./components/Form";
 import Frase from "./components/Frase";
 import InputControlled from "./components/InputControlled";
 // import Pessoa from './components/Pessoa';
+// import List from "./components/List";
 import ToggleTheme from "./components/ToggleTheme";
-import List from "./components/List";
 
 function App() {
   // const nome = 'Vitor Hugo';
@@ -16,15 +18,17 @@ function App() {
       <h1>Testando React.js</h1>
       <Frase />
       <br></br>
-      <List />
+      <Form />
+      <br></br>
       {/*<Pessoa 
       nome={nome} 
       foto={foto} 
       idade={idade} 
       profissao={profissao} /> */}
       <br></br>
-      <InputControlled></InputControlled> {/* utilizando o useState */}
-      <ToggleTheme></ToggleTheme> {/* utilizando o useEffect */}
+      <InputControlled /> {/* utilizando o useState */}
+      <ToggleTheme /> {/* utilizando o useEffect */}
+
     </div>
   );
 }

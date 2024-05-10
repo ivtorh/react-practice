@@ -13,11 +13,11 @@ function ToggleTheme() {
         const body = document.querySelector('body'); // pego o elemento 'body' através do DOM
 
         if (isDarkTheme) {
-            body.classList.add('dark-theme'); // chama a class estilizada
-            body.classList.remove('light-theme'); // chama a class estilizada
+            body.classList.add('dark-theme'); // adiciona a classe 'dark-theme'
+            body.classList.remove('light-theme'); // remove a classe 'light-theme'
         } else {
-            body.classList.add('light-theme'); // remove a class estilizada
-            body.classList.remove('dark-theme'); // remove a class estilizada
+            body.classList.add('light-theme'); // adiciona a classe 'light-theme'
+            body.classList.remove('dark-theme'); // remove a classe 'dark-theme'
         }   
     }, [isDarkTheme]);
 
